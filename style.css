@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    font-family: 'Poppins';
+    background-color: whitesmoke;
 }
 
 #tentacles {
@@ -11,14 +11,21 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(179, 195, 245);
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: "Baloo 2";
 }
-
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .stats-container {
     display: flex;
     align-items: center;
@@ -26,11 +33,11 @@ body {
 }
 
 .stats-card:hover {
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px rgb(179, 195, 245);
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #FFFFFF;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -40,6 +47,12 @@ body {
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
+}
+
+.gameText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #games-container {
@@ -65,7 +78,7 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px rgb(179, 195, 245);
 }
 
 #button-container {
@@ -73,7 +86,8 @@ body {
 }
 
 button {
-    font-family: 'Cabin';
+    font-family: 'Poppins';
+    text-transform: uppercase;
     border: none;
     padding: 1%;
     margin: 1%;

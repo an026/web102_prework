@@ -46,7 +46,7 @@ function addGamesToPage(games) {
         const display = `
             <h2> Name: ${game.name}</h2>
             <p> Description: ${game.description}</p>
-            <img src=${game.imgSource} width="200px" />
+            <img src=${game.imgSource} width="200px" style="filter:grayscale(0.7);" />
         `;
         newDiv.innerHTML = display;
         // append the game to the games-container
